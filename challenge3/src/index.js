@@ -5,10 +5,6 @@ const guessSubmit = document.querySelector(".guess submit");
 const chosenNumber = document.querySelector(".chosenNumber");
 const result = document.querySelector(".result");
 
-
-
-
-
 function submitClick(event){
     event.preventDefault();
     randomRange = generateInput.value;  // 랜덤 값 범위 
