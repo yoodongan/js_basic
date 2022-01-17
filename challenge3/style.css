@@ -1,0 +1,14 @@
+.num{
+    display: flex;
+    align-items: center;
+}
+.num input{
+    margin-left: 5px;
+}
+.result-screen{
+    display: flex;
+    flex-direction: column; 
+}
+.result{
+    font-weight: bold;
+}
