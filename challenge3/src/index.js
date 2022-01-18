@@ -7,9 +7,9 @@ const result = document.querySelector(".result");
 
 function submitClick(event){
     event.preventDefault();
-    randomRange = generateInput.value;  // 랜덤 값 범위 
-    randomValue = parseInt(Math.random()*randomRange)+1;
-    chosenNum = guessInput.value;   // 선택한 값 저장.
+    const randomRange = generateInput.value;  // 랜덤 값 범위 
+    const randomValue = parseInt(Math.random()*randomRange)+1;
+    const chosenNum = guessInput.value;   // 선택한 값 저장.
     chosenNumber.innerText = `You chose: ${chosenNum}, the machine chose: ${randomValue}`;
     if (chosenNum == randomValue){
         result.innerText = "You Won!"
